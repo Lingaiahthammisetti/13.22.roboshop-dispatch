@@ -1,5 +1,6 @@
 # Use a full Debian-based Golang image
-FROM golang:1.20-slim
+FROM golang:1.20-bookworm-slim
+
 
 # Set environment variables
 ENV GOPATH=/app/go \
